@@ -1,0 +1,484 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.bgimage{
+   
+   background-image: url(bg.jpeg);
+   background-size: cover;
+
+   height: 100vh;
+   
+   
+   
+    
+}
+.header{
+   background-color: white;
+   opacity: 1;
+   
+   font-weight: bold;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: header 2s ease;
+    
+    
+}
+
+@keyframes header{
+
+    0%{
+      opacity: 0;
+      transform:translateY(-100%);
+    }
+}
+
+.header h1{
+     margin-left: 10px;
+     font-family: "Kanit", sans-serif;
+      font-style:italic;
+      color:black;
+     
+      
+      
+     
+} 
+.header h1:hover {
+    
+    color:darkorange;
+    
+}
+
+
+nav ul{
+    display: flex;
+    margin-right: 40px;
+    gap:50px;
+    
+ 
+}
+nav ul a{
+    color:black;
+    text-decoration-line: none;
+    margin-left: 5px;
+    padding: 5px;
+    
+}
+
+nav a:hover{
+    background-color: whitesmoke;
+     box-shadow: rgba(0, 0, 0, 0.90) 0px 1px 0px;
+     cursor: pointer;
+     
+     border-radius: 10px;
+
+    color:darkorange;
+    
+    
+     
+}
+#firstone{
+    padding-top: 1px;
+}
+
+.menu-line{
+    height: 5px;
+    width: 20px;
+    background-color: black;
+    margin-bottom: 3px;
+    margin-right: 10px;
+    
+}
+.menu{
+    cursor: pointer;
+    display:none;
+}
+
+.homepage h4{
+    width: 70%;
+    margin-left: 180px;
+    color:whitesmoke;
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-size: 25px;
+    animation: headerspan 4s ease-in-out;
+}
+@keyframes headerspan {
+    0%{
+      opacity: 0;
+      transform: translatex(300%);
+
+  }
+  
+}
+.homepage h3 {
+    color: whitesmoke;
+    font-family: "poppins", sans-serif;
+    font-size: 60px;
+    margin-top: 100px;
+    width: 90%;
+    margin-left: 90px;
+    width: 90%;
+    animation: homepage3 4s ease;
+}
+@keyframes homepage3{
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+
+    }
+    
+}
+.homepage h4 span{
+    color: darkgoldenrod;
+    
+}
+
+
+
+.service-list{
+    display: flex;
+    justify-content: space-around;
+    color:black;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    opacity: 0.7;
+    
+    
+}
+.first-two,.second-two,.third-two{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.service-list h2{
+      padding-top: 100px;
+      
+
+}
+.service-list p{
+    padding-top: 10px;
+    color: black;
+    width: 290px;
+    padding-left: 10px;
+    padding-right: 10px ;
+}
+
+.service-list a{
+    
+    color:black;
+}
+   
+
+.weather1{
+   
+    border: none;
+    height: 340px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+
+.age1{
+    
+    border: none;
+    height: 340px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+.todo1{
+    
+    border: none;
+    height: 340px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+.text1{
+    
+    border: none;
+    height: 340px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+.cal1{
+    border:2px solid black ;
+    border: none;
+    height: 340px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+
+.quiz1{
+    border:2px solid black ;
+    border: none;
+    height: 340px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+.weather1:hover{
+   
+     
+     background-color: whitesmoke;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     cursor: pointer;
+     color:darkorange;
+}
+.cal1:hover{
+   
+     
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    color:darkorange;
+}
+.quiz1:hover{
+   
+     
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    color:darkorange;
+}
+.age1:hover{
+   
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    color:darkorange;
+}
+.todo1:hover{
+   
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    color:darkorange;
+}
+.text1:hover{
+   
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    color:darkorange;
+}
+
+.feature-list{
+    background-color: white;
+    display: flex;
+}
+
+.feature-para {
+    margin-left: 30px;
+}
+      
+.feature-para h3{
+    font-size: 70px;
+    
+}
+.feature-para.featureparaani h3{
+    animation: featurehead 2s ease;
+}
+@keyframes featurehead {
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    
+}
+.feature-para.featureparaani p{
+    animation: featureparagraph 3s ease-in-out;
+}
+@keyframes featureparagraph {
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    
+}
+.feature-para p{
+    margin-left: 20px;
+    width: 500px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.feature-img img{
+    width:800px;
+    border-radius: 10px;
+    margin:20px ;
+   
+}
+.feature-img.featureimage img {
+    animation: featureimage 2s ease-in-out;
+}
+
+@keyframes featureimage{
+    0%{
+        opacity: 0;
+        transform: translateX(200%);
+    }
+    
+    
+}
+ 
+
+
+
+
+
+
+
+@media screen and (max-width:400px){
+    .header h1{
+        font-size: 25px;
+        padding: 10px;
+        }
+    .header{
+        flex-direction: column;
+        width:100%;
+        
+    }
+    nav{
+        background-color: white;
+        width:100%;
+        z-index: 1;
+        display: none;
+    }
+     nav ul {
+       
+        display: block;
+        
+        text-align: center;
+         
+       
+
+    }
+    nav ul li{
+        margin-bottom: 10px;
+    }
+    .header h1{
+        align-self: flex-start;
+    }
+    .menu{
+        display: block;
+        position:absolute;
+         align-self: flex-end;
+         padding: 17px;
+         text-align: center;
+         cursor: pointer;
+    }
+    .showmenu{
+        display: block;
+       
+    }
+    
+
+
+.homepage h3{
+    font-size: 27px;
+    margin-top: 40px;
+    margin-left: 18px;
+    z-index: 2;
+}
+
+.homepage h4{
+    font-size: 17px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color:whitesmoke;
+    
+}
+.service-list{
+    width: 300px;
+    display: flex;
+     flex-direction: column;
+     gap:10px;
+     margin:10px;
+     
+}
+.first-two{
+    margin-left: 30px;
+}
+.second-two{
+    margin-left: 30px;
+}
+.third-two{
+    margin-left: 30px;
+}
+
+.weather1{
+    border: 1px solid blue;
+    margin-bottom: 30px;
+}
+.todo1{
+    border: 1px solid blue;
+    margin-bottom: 30px;
+}
+.age1{
+    border: 1px solid blue;
+    margin-bottom: 30px;
+}
+.text1{
+    border: 1px solid blue;
+    margin-bottom: 30px;
+}
+.cal1{
+    border: 1px solid blue;
+    margin-bottom: 30px;
+    
+}
+.quiz1{
+    border: 1px solid blue;
+    margin-bottom: 30px;
+}
+
+.feature-list{
+    display: grid;
+}
+.feature-para h3{
+    width:250px;
+    font-size: 20px;
+    word-wrap: break-word;
+} 
+.feature-para p{
+    width:250px;
+    margin-right: 40px;
+    font-size: 15px;
+}
+.feature-img img{
+    width:250px;
+    margin-left: 50px;
+
+}
+}

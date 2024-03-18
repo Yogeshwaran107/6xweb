@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    width:100%;
+     min-height: 100vh;
+background: linear-gradient(180deg,#4203a9,#90bafc);
+     
+
+}
+
+.header1{
+
+      margin-top: 215px;
+      margin-left: 150px;
+      font-weight: 400px;
+
+}
+
+.container{
+    
+    display: flex;
+    background:rgba(255,255,255,0.3);
+    opacity:0.7px;
+    width: 400px;
+    height: 78px;
+    padding-top: 25px;
+    padding-left:30px;
+    margin-top: 30px;
+    margin-left: 150px;
+    border-radius: 10px;
+    border: none;
+    gap:20px;
+    
+}
+.container input{
+    background-color: whitesmoke;
+    padding: 4px;
+    border-radius: 10px;
+    border: none;
+    width:250px;
+    height: 35px;
+     position: relative;
+     outline: 0;
+   
+    
+}
+.container button{
+    background-color: goldenrod;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    height: 33px;
+    cursor: pointer;
+    
+}
+
+.container input::-webkit-calendar-picker-indicator{
+
+    left:0;
+     right: 0;
+     bottom: 0 ;
+     top:0;
+     width:auto;
+     height: auto;
+     position: absolute;
+     background-position: calc(100% - 10px);
+     background-size: 30px;
+     cursor: pointer;
+ }
+ #result{
+    margin-top: 35px;
+      margin-left: 150px;
+      font-weight: 40px;
+
+ }
+
+ #result span{
+    color :whitesmoke;
+ }
+   
+
+
+@media screen and (max-width:400px)
+{
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif; 
+    }
+    .header1{
+        
+        font-size: 30px;
+        margin-left: 30px;
+        
+        
+        
+
+    }
+    .container{
+        width:300px;
+        margin-left: 25px;
+    }
+    .container input{
+        width:150px;
+        font-size:10px;
+    }
+    .container button{
+        width: 50px;
+        font-size: 10px;
+        padding: 2px;
+        font-family: "Poppins", sans-serif;
+    }
+    #result{
+        margin-left: 25px;
+        font-size: 25px;
+    }
+}
+
